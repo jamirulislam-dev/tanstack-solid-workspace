@@ -5,7 +5,8 @@ A pnpm monorepo workspace.
 ## Directory Structure
 
 ```text
-├── apps/                 # Application packages (e.g. web, docs)
+├── apps/                 # Application packages
+│   └── admin/            # TanStack Start (SolidJS) admin app with Panda CSS
 ├── packages/             # Shared libraries and packages (e.g. ui, utils, config)
 ├── .gitignore
 ├── package.json          # Root workspace package configuration
