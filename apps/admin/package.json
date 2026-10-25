@@ -1,0 +1,28 @@
+{
+  "name": "admin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare": "panda codegen",
+    "dev": "vite dev",
+    "build": "panda codegen && vite build",
+    "preview": "vite preview",
+    "start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@tanstack/solid-router": "^1.170.43",
+    "@tanstack/solid-router-devtools": "^1.167.2",
+    "@tanstack/solid-start": "^1.169.4",
+    "solid-js": "^1.9.10"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "^2.4.0",
+    "@pandacss/vite": "^2.4.0",
+    "@types/node": "^22.5.4",
+    "nitro": "^3.0.260903-beta",
+    "typescript": "^5.8.2",
+    "vite": "^8.0.14",
+    "vite-plugin-solid": "^2.11.14"
+  }
+}
