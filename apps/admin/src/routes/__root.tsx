@@ -7,8 +7,8 @@ import {
 import { TanStackRouterDevtools } from '@tanstack/solid-router-devtools'
 import { HydrationScript } from 'solid-js/web'
 import type * as Solid from 'solid-js'
-import { DefaultCatchBoundary } from '~/components/DefaultCatchBoundary'
-import { NotFound } from '~/components/NotFound'
+import { DefaultCatchBoundary } from '~/components/default-catch-boundary'
+import { NotFound } from '~/components/not-found'
 import appCss from '~/styles/app.css?url'
 
 export const Route = createRootRoute({

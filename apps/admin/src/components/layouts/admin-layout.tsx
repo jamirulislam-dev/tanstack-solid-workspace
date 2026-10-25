@@ -1,6 +1,6 @@
 import type { JSX } from 'solid-js'
-import { Sidebar } from '../Sidebar'
-import { Header } from '../Header'
+import { Sidebar } from '../sidebar'
+import { Header } from '../header'
 import { css } from 'styled-system/css'
 
 const layoutStyle = css({
