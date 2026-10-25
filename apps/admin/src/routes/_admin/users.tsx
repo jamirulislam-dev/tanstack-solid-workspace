@@ -2,7 +2,7 @@ import { createFileRoute } from '@tanstack/solid-router'
 import { css } from 'styled-system/css'
 import { For } from 'solid-js'
 
-export const Route = createFileRoute('/users')({
+export const Route = createFileRoute('/_admin/users')({
   component: UsersPage,
 })
 

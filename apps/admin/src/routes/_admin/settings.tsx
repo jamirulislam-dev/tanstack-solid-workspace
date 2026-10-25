@@ -1,7 +1,7 @@
 import { createFileRoute } from '@tanstack/solid-router'
 import { css } from 'styled-system/css'
 
-export const Route = createFileRoute('/settings')({
+export const Route = createFileRoute('/_admin/settings')({
   component: SettingsPage,
 })
 
